@@ -43,5 +43,12 @@ public class CarRunningStatusDTO implements Serializable {
 		this.timestamp = timestamp;
 	}
 
+	public CarRunningStatusDTO(String id, List<Integer> latlong, LocalDateTime timestamp) {
+		super();
+		this.id = id;
+		this.latlong = latlong;
+		this.timestamp = timestamp;
+	}
+
 	
 }
